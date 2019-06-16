@@ -1,0 +1,282 @@
+/*	style.css
+	style sheet for the choctawphysicaltherapy website  */
+
+body {
+	background-color:#a6bf79;
+	color:#000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px 10px 10px 10px;
+	padding: 0px;
+}
+.clear {clear:both;}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#container {
+	margin: 0px auto;
+	text-align: left;
+	width: 717px;
+}
+a{
+	font-size:12px;
+}
+p{
+	margin: 15px 0px;
+}
+/********************** Header ***************************/
+#header {
+	margin: 0px 0px 0px 0px;
+	background-image:url(images/header.jpg);
+	background-image:url(images/pt_full_logo.png);
+	width:711px;
+	height:205px;
+	position:relative;
+	border: solid #ffffff;
+}
+#div_menu_bar {
+	margin: 0;
+	width: 711px;
+	height: 23px;
+}
+#div_menu_bar ul {
+	background-color:#85a157;
+	width:611px;
+	border: solid #ffffff;
+	display:block;
+	top:202px;
+	position:absolute;
+	margin: 0px 0px 0px 0px;
+	padding:0px 0px 0px 100px; 
+	text-align:center;
+}
+#div_menu_bar li{
+	position: relative;
+	float: left;
+	list-style: none;
+}
+#div_menu_bar li a{
+	text-decoration:none;
+	color:#FFFFFF;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	display: block;
+	line-height: 30px;
+	height:30px;
+	width:80px;
+}
+#div_menu_bar li a:hover {
+	background-color:#a6bf79;
+}
+#div_menu_bar ul ul{
+	border: none;
+	display: block;
+	position: absolute;
+	text-align:left;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	top: 30px;
+	left: 0px;
+	visibility: hidden;
+}
+#div_menu_bar ul ul a {
+	background-color:#85a157;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	width: 100%;
+}
+a.ul_therapists {
+	width: 175px !important;
+}
+a.ul_services{
+	width: 100px !important;
+}
+a.ul_patients{
+	width: 100px !important;
+}
+#div_menu_bar ul li:hover ul {
+	visibility: visible;
+}
+
+#logo_w1,#logo_w2 {
+	font-size: 24px;
+	font-style:italic;
+	color:#FFFFFF;
+	position:absolute;
+}
+#logo_w1{
+	top:15px;
+	left:70px;
+}
+#logo_w2{
+	top:44px;
+	left:94px;
+}
+#header_text {
+	top:90px;
+	left:43px;
+	width:230px;
+	position:absolute;
+}
+#header_text p{
+	font-size: 18px;
+	color:#FFFFFF;
+}
+#header_text a{color:#28556b;}
+#header_text a:hover{color:#c77e0c;}
+/********************** Content ***************************/
+#content {
+	background-image:url(images/content_bg.gif);
+	width:717px;
+}
+img{
+	border-width:0px;
+}
+h1{
+	color:#000000;
+	font-size:18px;
+	font-style: italic;
+	color: green;
+	margin: 20px 0px 20px 0px;
+}
+
+h2{
+	color:#85a157;
+	font-size:14px;
+	text-align:center;
+	width:200px;
+	margin: 10px 0px 15px 0px;
+}
+#left {
+	float:left;
+	width:426px;
+	margin-left:27px;
+	padding: 0px 10px 30px 0px;
+	display:inline;
+	border-right: #FFF 2px solid;
+}
+#left a{color:#28556b;}
+#left a:hover{color:#c77e0c;}
+#photos {
+	margin-left: 10px;
+}
+#right {
+	float:right;
+	width:212px;
+	padding: 0px 20px 20px 20px;
+	margin-top:10px;
+/*	border-left: #FFF 2px solid;  */
+
+}
+#right a{
+	color:#c77e0c;
+}
+#right a:hover{
+	color:#85a157;
+}
+#right ul {
+	margin-left: 15px;
+}
+.center {
+	text-align: center;
+}
+.testimonial {
+	text-align: justify;
+	font-style: italic;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.right {
+	text-align: right;
+	margin-right: 25px;
+}
+.f_left {
+	float: left;
+	margin: 0px 15px 0px 0px;
+}
+.f_right {
+	float: right;
+	margin: 0px 0px 0px 15px;
+}
+div.therapist_r {
+	text-align: right;
+	clear: both;
+}
+div.therapist_l{
+	text-align: left;
+	clear: both;
+}
+div.therapist_l img, div.therapist_r img {
+	margin-top: 25px;
+}
+h1.h1_therapist {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+#div_contact {
+	font-size: 14px;
+}
+#div_contact td.contact_label {
+	text-align:right; 
+	vertical-align:top;
+}
+#div_contact input {
+	height: 18px;
+}
+#div_contact input.contact_button {
+	height: 25px;
+}
+input.contact_button {
+	font-weight:bold;
+	height:28px;
+	padding: 0px 15px 0px 15px;
+}
+ul.services {
+	margin-left:40px;
+	font-style: italic;
+	color: green;
+}
+img.pt_img {
+	margin: 15px;
+}
+p.p_services_img {
+	margin: auto;
+}
+table.t_side {
+	padding: 0px;
+	margin: 0px;
+}
+.td_label {
+	text-align: right;
+	width: 40%;
+}
+/********************** Map ******************************/
+#map_canvas {
+	position:relative;
+	left:5px;
+	top:10px;
+	width:190px; 
+	height:190px;
+	margin:5px;
+	border: #FFF 2px solid;
+	margin-bottom:25px;
+}
+/********************** Footer ***************************/
+#footerline {
+clear:both;
+background-image:url(images/footer_bg.gif);
+font-size:1px;
+height:10px;
+}
+#footer {
+	width:717px;
+	text-align:center;
+	padding: 5px 0px;
+	font-size: x-small;
+}
+#footer a {
+	text-decoration: none;
+}

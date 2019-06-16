@@ -1,0 +1,48 @@
+/*	admin_style.css
+	style sheet additions needed for admin site
+	these add to or overwrite the original style.css */
+
+p.err_msg {
+	color: red;
+}
+#div_menu_bar ul {
+	width:661px;
+	padding:0px 0px 0px 50px; 
+}
+ul.ul_main {
+margin-left: 20px;
+}
+.td_label {
+	text-align: right;
+	width: auto;
+}
+.td_top {
+	vertical-align: top;
+}
+.td_cnt {
+	padding-left: 15px;
+	text-align: right;
+}
+.td_heading {
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+textarea {
+	resize: none;
+}
+img.admin_img {
+	border: 1px solid black;
+}
+p.add_bio_link {
+	clear: both;
+	text-align: center;
+	padding-top: 20px;
+}
+fieldset {
+	padding:20px 10px;
+}
+input, textarea, select {
+background-color : #9cf;
+}
